@@ -1,0 +1,35 @@
+footer {
+    margin: 40px auto;
+    margin-bottom: none;
+    background-color: rgb(20, 41, 80);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: 0.7rem;
+}
+.inline {
+    display: flex;
+
+    &_item {
+        width: 10px;
+        margin: 5px 10px 5px 0;
+    }
+}
+.footer_sect {
+    color: rgb(142, 163, 202);
+    margin: 20px;
+    width: 200px;
+}
+.footer_main{
+    width: 300px;
+}
+.footer_title {
+    color: #eee;
+    margin-bottom: 13px;
+}
+nav {
+    list-style: none;
+}
+li {
+    margin: 7px 0;
+}

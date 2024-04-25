@@ -1,0 +1,34 @@
+.container {
+display: flex;
+align-content: space-between;
+align-items: center;
+margin: 40px 0;
+padding: 0;
+}
+.item_container {
+    box-sizing: border-box;
+    margin: auto 15px;
+    width: 300px;
+    min-width: 180px;
+    padding:10px;
+    padding-bottom: 25px;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 22px;
+    
+}
+.descriptor {
+    color: #747474;
+}
+.blue_link{
+    color: rgb(31, 68, 189);
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.orange_link {
+    color: rgb(214, 141, 32);
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+a {
+    text-decoration: none;
+}
